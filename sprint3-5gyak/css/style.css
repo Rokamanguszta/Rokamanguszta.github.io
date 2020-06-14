@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald/Oswald-DemiBold.ttf");
+    font-weight: 700;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=PT+Serif&family=Roboto+Slab&display=swap');
+
+
+
+.html {
+    background-image: url("../css/img/lampa.jpg");
+}
+
+img {
+    width: 22.5%;
+    box-shadow: 0 0 12px;
+    margin: 10px;
+    padding-right: 0;
+    box-shadow: 3 3 2px;
+    
+
+    }
+
+    #img-1 {
+    
+        position: static;
+        top: 5px;
+    }
+
+h1 {
+    color: rebeccapurple;
+    font-family: 'Crimson Text', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+#bio-header {
+    color: maroon;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+#skills-header {
+    color: mediumseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: lime;
+    font-family: 'Roboto', Arial, Helvetica;
+
+}
+
+.content {
+    color: grey;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+.img-div {
+    background-color: hotpink;
+    padding-left: 20px;
+    position: absolute;
+
+}
+
+p {
+    color: chocolate;
+    font-size: 50;
+    font-family: "Oswald-light";
+}
+
+

@@ -1,0 +1,11 @@
+.html {
+    background-image: url("img/patern.jpg");
+}
+
+#colorDiv {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+}
+
