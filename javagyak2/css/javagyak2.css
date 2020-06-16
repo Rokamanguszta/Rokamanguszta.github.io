@@ -1,0 +1,18 @@
+body {
+    background-color: 34, 32, 43;
+}
+
+fieldset {
+    background-color: blueviolet;
+} 
+btn {
+    box-shadow: chocolate 12px;
+}
+
+#input {
+    box-shadow: blue 10px;
+}
+
+label {
+    font-size: 48;
+}
