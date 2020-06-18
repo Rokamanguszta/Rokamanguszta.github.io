@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: "Oswald";
+    src: url(fonts/Oswald-BoldItalic.ttf);
+    font-weight: 500;
+
+}
+
+.img-div {
+    background-color: darkkhaki;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: "Oswald-Bolditalic", Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+h3 {
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#productHeader {
+    color: crimson;
+}
+
+.product {
+    color: darkgray;
+    font-size: 28px;
+}
+
+.lighter {
+font-weight: lighter;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 3 3 2px;
+
+}
+
+#img1 {
+    display: block;
+    position: relative;
+}
+
+#color {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    background-color: #d1d4d8;
+    background-image: url("css/img/test");
+    background-position: left top;
+    background-repeat: repeat-x;
+    background: url("css/img/test") repeat-x;
+
+}
+ 
+p {
+    max-width: 75%;
+}
+
+.login-div {
+    padding: 10px;
+    border: solid 1px #c1c1c1;
+    box-shadow: 0 0 3px; 
+    display: inline-block;
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.login-div button:hover {
+    box-shadow: 0 0 3px #c0c0c0; 
+    
+
+}
+
+.login-div input:focus {
+    box-shadow: 0 0 3px #c0c0c0;
+}
+
+ol li:first-child {
+    color: red;
+}
+
+ol li:nth-child(2) {
+    text-decoration: underline;
+}
+
+.html {
+    background-image: url("css/img/back");
+}
