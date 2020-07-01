@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Order form</legend>
+
+        <form action="">
+            <div class="form-group">
+                <label for="">Product</label>
+                <input type="text" name="top-Input" class="form-control">
+
+            </div>
+            <div class="form-group"></div>
+            <label for="">Quantity</label>
+            <input type="number" value="" name="amount-Input" class="form-control">
+            <small class="form-text text-muted">Minimum 1, maximum 10 pieces!</small>
+
+            <div>
+
+                Amount to pay: <span class="show-amount">0</span> €
+                <button onclick="calcAmount()" type="button" class="btb btn-primary">Price</button>
+            </div>
+
+        </form>
+    </fieldset>
+
+    <script src="css/js/main.js"></script>
+</body>
+
+</html>

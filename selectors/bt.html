@@ -40,42 +40,52 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6"></div>
+    <form>
 
-            <h3>Hamburger rendelés</h3>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <strong>Kedves vásárlónk!</strong>
+            Kérjük töltse ki az űrlapot!<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6"></div>
 
-            <form action="">
-                <div class="form-group"></div>
-                <label for="">Feltét</label>
-                <input type="text" name="top-Input" class="form-control">
+                <h3>Hamburger rendelés</h3>
+
+                <form id="orderForm" action="">
+                    <div class="form-group"></div>
+                    <label for="">Feltét</label>
+                    <select id="topInput" type="text" name="top-Input" class="form-control">
+            </div>
+            <div class="form-group"></div>
+            <label for="">Mennyiség</label>
+            <input value="1" type="number" name="amount-input" class="form-control">
+            <small class="form-text text-muted">minimum1, maximum10db</small>
         </div>
-        <div class="form-group"></div>
-        <label for="">Mennyiség</label>
-        <input value="1" type="number" name="amount-Input" class="form-control">
-        <small class="form-text text-muted">minimum1, maximum10db</small>
-    </div>
+        <div class="form-group">
 
-    Fizetendő: <span class="show.amount">0</span>Ft
-    <button onclick="calcAmount()" type="button" class="btn.btn-primary">Megrendelés</button>
+            Fizetendő: <span class="show.amount">0</span>Ft
+        </div>
+        <button type="submit" class="btn btn-primary">Megrendelés</button>
 
     </form>
 
-</div>
+    </div>
 
-<div><button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
+    <div><button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
 
-    <button type="button" class="btn btn-link">Link</button</div>
-    >
+        <button type="button" class="btn btn-link">Link</button< /div>
+            >
     </div>
     </div>
 
