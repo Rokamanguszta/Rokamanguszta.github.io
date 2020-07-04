@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="login-div">
+        <div class="form-group">
+    
+            <label for="">Email</label>
+            <input class="form-control" type="email" name="email">
+     
+        <div class="login-div">
+        <div class="form-group">
+            <label for="">Password</label>
+            <input class="form-control" type="password" name="password">
+        </div>
+    </div>
+    <div>
+    <button class="submit-btn">Login</button>
+</div>
+
+
+<form>
+    <fieldset>
+        <legend>
+        <div class="col-12 col-md-6 col-md-3">
+        <label for="name">Name: *</label>
+         <input id="name" name="name" type="text" required>
+    </div>
+    <div>
+        <label for="email">Email address: *</label>
+        <input id="email" type="email" required>
+    </div>
+    <label>Remarks: </label>
+    <textarea name="comment" id="comment" cols="30" rows="6"></textarea>
+
+    <div>
+        <input type="">
+        <input id="newsletter" type="radio" name="newsletter" value="1000">
+        <label for="newsletter">Newsletter1</label>
+        <input id="newsletter" type="radio" name="newsletter" value="1000">
+        <label for="newsletter">Newsletter2</label>
+        <input id="newsletter" type="radio" name="newsletter" value="1000">
+        <label for="newsletter">Newsletter3</label>
+        <input id="newsletter" type="radio" name="newsletter" value="1000">
+        <label for="newsletter">Newsletter4</label>
+        <input id="newsletter" type="radio" name="newsletter" value="1000">
+        <label for="newsletter">Newsletter5</label>
+        <input id="newsletter" type="radio" name="newsletter" value="1000">
+        <label for="newsletter">Newsletter6</label>
+    </div>    
+        </legend>
+    </fieldset>
+    
+
+
+
+</form>
+
+    <div class="container">
+        <form>
+        <div id="order" class="form-group">
+            <label for="product">Product</label>
+            <input type="text" class="form-control" name="product">
+        </div>
+        </form>
+        <div id="order" class="form-group">
+            <label for="Quantity">Quantity</label>
+            <input value="" type="number" class="form-control" name="amountInput">
+            <small class="form-text text-muted">Minimum 1, maximum 1 product!</small>
+        </div>
+        Price: <span class="show-amount">0</span> Euro
+        <Button onclick="calcAmount()" type="button" class="btn btn-primary">Order</Button>
+    </div>
+
+
+
+    <a href="practiceall2.html">Home</a>
+    <script src="css/js/main.js"></script>
+</body>
+</html>
