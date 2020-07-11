@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Dear costumer! </strong> Please fill in the form!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+
+
+    <div class="container">
+    <form id="orderForm">
+        <div id="order" class="form-group">
+            <label for="product">Product</label>
+            <select id="topInput" type="text" class="form-control" name="topInput"></select>
+        </div>
+        
+        <div id="order2" class="form-group">
+            <label for="Quantity">Quantity</label>
+            <input type="number" class="form-control" name="amountInput">
+            <small class="form-text text-muted">Minimum 1, maximum 1 product!</small>
+        </div>
+        Price: <span class="show-amount">0</span> Euro
+        <Button type="submit" class="btn btn-primary">Order</Button>
+        </div>
+    </form>
+    <a href="practiceall2.html">Home</a>
+
+    <script src="css/js/main.js"></script>
+</body>
+</html>
